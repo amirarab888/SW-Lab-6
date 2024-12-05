@@ -1,10 +1,29 @@
-version: '3'
 services:
-  interface:
-    build: .
-    ports:
-      - "80:80"
-    depends_on:
-      - backend1
-      - backend2
-      - backend3
+ interface:
+   build: .
+   ports:
+     - "8080:80"
+ backend1:
+   image: node:16-alpine
+   ports:
+     - "3001:3000"
+   volumes:
+     - ./backend:/app
+   working_dir: /app
+   command: ["node", "src/server.js"]
+ backend2:
+   image: node:16-alpine 
+   ports:
+     - "3002:3000"
+   volumes:
+     - ./backend:/app
+   working_dir: /app
+   command: ["node", "src/server.js"]
+ backend3:
+   image: node:16-alpine
+   ports:
+     - "3003:3000" 
+   volumes:
+     - ./backend:/app
+   working_dir: /app
+   command: ["node", "src/server.js"]
