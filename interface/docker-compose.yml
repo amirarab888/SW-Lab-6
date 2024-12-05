@@ -1,0 +1,10 @@
+version: '3'
+services:
+  interface:
+    build: .
+    ports:
+      - "80:80"
+    depends_on:
+      - backend1
+      - backend2
+      - backend3
