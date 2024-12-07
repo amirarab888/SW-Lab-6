@@ -1,0 +1,30 @@
+# test_main.http
+### Health Check
+GET http://127.0.0.1:13000/health
+
+### Create Item
+POST http://127.0.0.1:13000/items/
+Content-Type: application/json
+
+{
+    "title": "Test Item",
+    "description": "This is a test item"
+}
+
+### Get All Items
+GET http://127.0.0.1:13000/items/
+
+### Get Single Item
+GET http://127.0.0.1:13000/items/1
+
+### Update Item
+PUT http://127.0.0.1:13000/items/1
+Content-Type: application/json
+
+{
+    "title": "Updated Item",
+    "description": "This is an updated item"
+}
+
+### Delete Item
+DELETE http://127.0.0.1:13000/items/1
