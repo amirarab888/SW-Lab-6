@@ -4,14 +4,14 @@
 
 
 
-![image](https://github.com/user-attachments/assets/c8508cf2-3027-49c5-bb41-b8137e4c8f96)
-
-
-![image](https://github.com/user-attachments/assets/a0f97515-dbe6-4b7a-b081-a4355f8f9f1b)
 
 
 با ران کردن داکر کامپوز تغییر یافته مشاهده می‌شود که سه بکند اجرا شده و دیتابیس اجرا شده و nginx بالا آمده و درخواست‌ها با این که به 23008 رفته و توسط nginx که همان interface سیستم است, بین سرورهای بکند تقسیم می‌شوند.
 
+![image](https://github.com/user-attachments/assets/c8508cf2-3027-49c5-bb41-b8137e4c8f96)
+
+
+![image](https://github.com/user-attachments/assets/a0f97515-dbe6-4b7a-b081-a4355f8f9f1b)
 
 ![image](https://github.com/user-attachments/assets/ad91bffe-b712-40bb-9ec1-22198e00a6cc)
 
@@ -24,6 +24,7 @@ Stateless به این معنا است که هر درخواست کاملاً مس
 •	تمامی داده‌های پایدار در پایگاه داده مشترک PostgreSQL ذخیره می‌شوند.
 •	چندین نمونه API می‌توانند درخواست‌ها را به‌طور متناوب از طریق متوازن‌کننده بار (load balancer) سرویس‌دهی کنند.
 •	هر درخواست تمام اطلاعات مورد نیاز برای پردازش را در خود دارد.
+
 
 
 2:
