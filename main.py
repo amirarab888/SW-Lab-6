@@ -1,3 +1,5 @@
+import os
+
 from fastapi import FastAPI, HTTPException, Depends
 from pydantic import BaseModel
 from typing import List, Optional
@@ -39,9 +41,9 @@ def read_root():
 def health_check():
     return {
         "status": "healthy",
-        "timestamp": datetime.utcnow()
+        "server": os.getenv("SERVER_NAME", "unknown"),
+        "timestamp": datetime.utcnow().isoformat()
     }
-
 
 @app.post("/items/", response_model=Item)
 def create_item(item: ItemCreate, db: Session = Depends(get_db)):
