@@ -2,6 +2,20 @@
 ![image](https://github.com/user-attachments/assets/15af87b5-768b-4551-9236-6f627ab0d6fb)
 ![image](https://github.com/user-attachments/assets/ccd4c438-11fb-42b6-ad74-6ad95206d916)
 
+
+
+![image](https://github.com/user-attachments/assets/c8508cf2-3027-49c5-bb41-b8137e4c8f96)
+
+
+![image](https://github.com/user-attachments/assets/a0f97515-dbe6-4b7a-b081-a4355f8f9f1b)
+
+
+با ران کردن داکر کامپوز تغییر یافته مشاهده می‌شود که سه بکند اجرا شده و دیتابیس اجرا شده و nginx بالا آمده و درخواست‌ها با این که به 23008 رفته و توسط nginx که همان interface سیستم است, بین سرورهای بکند تقسیم می‌شوند.
+
+
+![image](https://github.com/user-attachments/assets/ad91bffe-b712-40bb-9ec1-22198e00a6cc)
+
+
 جواب سوال ها:
 1: سوال اول:
 Stateless به این معنا است که هر درخواست کاملاً مستقل و خودکفا است و هیچ وابستگی به درخواست‌های قبلی ندارد.
@@ -29,14 +43,3 @@ Stateless به این معنا است که هر درخواست کاملاً مس
 •	می‌توانیم بررسی سلامت در سطح برنامه را مشاهده کنیم
 •	مسیریابی نقطه پایانی /health در سطح HTTP انجام می‌شود
 این به ما این امکان را می‌دهد که کنترل بیشتری بر توزیع درخواست‌ها داشته باشیم و نظارت بهتری بر خدمات خود انجام دهیم.
-
-![image](https://github.com/user-attachments/assets/c8508cf2-3027-49c5-bb41-b8137e4c8f96)
-
-
-![image](https://github.com/user-attachments/assets/a0f97515-dbe6-4b7a-b081-a4355f8f9f1b)
-
-
-با ران کردن داکر کامپوز تغییر یافته مشاهده می‌شود که سه بکند اجرا شده و دیتابیس اجرا شده و nginx بالا آمده و درخواست‌ها با این که به 23008 رفته و توسط nginx که همان interface سیستم است, بین سرورهای بکند تقسیم می‌شوند.
-
-
-![image](https://github.com/user-attachments/assets/ad91bffe-b712-40bb-9ec1-22198e00a6cc)
