@@ -66,6 +66,9 @@ docker ps | grep interface
 - Container orchestration via Docker Compose
 - Easy horizontal scaling
 
+- ![image](https://github.com/user-attachments/assets/f4750bd8-cc90-42e4-b83d-5ef397d727e8)
+
+
 ## Testing
 
 1. Basic Health Check:
@@ -113,3 +116,12 @@ docker-compose up -d
 - Request logging ✓
 - Error handling ✓
 - Health monitoring ✓
+
+
+![image](https://github.com/user-attachments/assets/3251aac9-42c2-4c5f-b587-cd5202cc8268)
+
+![image](https://github.com/user-attachments/assets/e31c78ad-a22c-41f0-9a11-a4d81c9a83ba)
+
+با ران کردن داکر کامپوز تغییر یافته مشاهده می‌شود که سه بکند اجرا شده و دیتابیس اجرا شده و nginx بالا آمده و درخواست‌ها با این که به 23008 رفته و توسط nginx که همان interface سیستم است, بین سرورهای بکند تقسیم می‌شوند.
+
+![Uploading image.png…]()
